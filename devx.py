@@ -10,18 +10,20 @@ from hashlib import sha1
 # pip install requests
 import requests
 
-msg = hashlib.sha256();
-msg.update(b'Simple is better than complex');
-msg.digest();
+msg = hashlib.sha256()
+msg.update(b'Simple is better than complex')
+msg.digest()
 
-msg.block_size;
+msg.block_size
 
-msg.hexdigest();
+msg.hexdigest()
 
-msg = hashlib.md5();
-msg.update(b'Simple is better than complex');
-msg.hexdigest();
+msg = hashlib.md5()
+msg.update(b'Simple is better than complex')
+msg.hexdigest()
 
 print(msg.digest_size)
 print(msg.hexdigest())
 print("done")
+
+# bit16
